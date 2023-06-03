@@ -27,11 +27,12 @@ output: stores image file with detected objects
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+After instantiating the ObjectDetection class we can now call various functions from the class. The class contains the following functions to call pre-trained models: setModelTypeAsRetinaNet(), setModelTypeAsYOLOv3(), and setModelTypeAsTinyYOLOv3().
 
+For the purpose of this tutorial, I'll be using the pre-trained TinyYOLOv3 model, and hence we will use the setModelTypeAsTinyYOLOv3() function to load our model.
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+To detect objects in the image, we need to call the detectObjectsFromImage function using the detector object that we created in the previous section.
 
-
+This function requires two arguments: input_image and output_image_path. input_image is the path where the image we are detecting is located, while the output_image_path parameter is the path to store the image with detected objects. This function returns a dictionary which contains the names and percentage probabilities of all the objects detected in the image.
 ![image](https://github.com/kamran20200230/my_new_project/assets/135314860/e4ae665d-2be4-4ac4-8d0d-7bb6c6b5c8da)
