@@ -4,8 +4,9 @@ building_AI
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# New_Code
+# Performing Object Detection with ImageAI
 
+Now let's see how to actually use the ImageAI library. I'll explain step by step how you can build your first object detection model with ImageAI.
 Final project for the Building AI course
 
 ## Summary
