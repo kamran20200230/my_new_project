@@ -9,9 +9,6 @@ Copy the template, paste it to your GitHub README and edit! -->
 Now let's see how to actually use the ImageAI library. I'll explain step by step how you can build your first object detection model with ImageAI.
 Final project for the Building AI course
 
-## Summary
-
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
 
 
 ## Background
