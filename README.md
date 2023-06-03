@@ -15,13 +15,13 @@ Describe briefly in 2-3 sentences what your project is about. About 250 characte
 
 
 ## Background
+|Our first task here is to create the necessary folders. For this tutorial we need the following folders:
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Object detection: root folder
+models: stores pre-trained model
+input: stores image file on which we want to perform object detection
+output: stores image file with detected objects
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
 
 
 ## How is it used?
