@@ -3,8 +3,8 @@ from imageai.Detection import ObjectDetection
 detector = ObjectDetection()
 
 model_path = "./models/yolo-tiny.h5"
-input_path = "./input/test45.jpg"
-output_path = "./output/newimage.jpg"
+input_path = "./input/cars.jpg"
+output_path = "./output/image.jpg"
 
 detector.setModelTypeAsTinyYOLOv3()
 detector.setModelPath(model_path)
